@@ -36,6 +36,10 @@ we-blog的 后台管理 项目，要求兼容IE11
 > >
 > > components  //可复用组件存放目录
 > >
+> > Main
+> > >
+> > > Main.jsx      //页面从这里开始写，不要写的App.jsx里面去
+> >
 > > views //页面组件存放目录
 > >
 > > App.jsx     //所有页面的根容器（以及携带路由根容器HashRouter）

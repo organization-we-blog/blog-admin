@@ -33,9 +33,9 @@ module.exports = {
         port: 3000,
         host: "127.0.0.1",
         progress: true,
-        proxy: {
+        proxy: {//代理
             '/Api': {
-                target: "http://127.0.0.1:3002/",
+                target: "http://49.234.9.206:3002/",
                 pathRewrite: {"^/Api": ""}
             }
         }

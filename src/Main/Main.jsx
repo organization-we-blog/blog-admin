@@ -1,14 +1,17 @@
+/*
+所有内容从这里开始写
+*/
 import React from "react"
 import {Link, Route, Switch} from "react-router-dom"
 import Css from "./style.less"
-import { Layout, Menu, Avatar, Badge  } from 'antd';
-import Article from "@view/article/Article";
-import DashBoard from "@view/dash_board/DashBoard";
-import MediaLibrery from "@view/media_librery/MediaLibrery";
-import Safety from "@view/safety/Safety";
-import UserControl from "@view/user_control/UserControl";
-import Visit from "@view/visit/Visit";
-import EditArticleForm from "@/components/EditArticleForm";
+import { Layout, Menu, Avatar, Badge } from 'antd';
+import Article from "../view/article/Article";
+import DashBoard from "../view/dash_board/DashBoard";
+import MediaLibrery from "../view/media_librery/MediaLibrery";
+import Safety from "../view/safety/Safety";
+import UserControl from "../view/user_control/UserControl";
+import Visit from "../view/visit/Visit";
+import EditArticleForm from "../view/article/components/EditArticleForm";
 import {
     UserOutlined,
     DashboardOutlined,
