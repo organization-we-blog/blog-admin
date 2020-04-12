@@ -44,7 +44,7 @@ we-blog的 后台管理 项目，要求兼容IE11
 > >
 > > App.jsx     //所有页面的根容器（以及携带路由根容器HashRouter）
 > >
-> > index.jsx  //入口文件
+> > ShowArticleList.jsx  //入口文件
 >
 > .babelrc   //babel（js代码兼容）配置文件
 >
